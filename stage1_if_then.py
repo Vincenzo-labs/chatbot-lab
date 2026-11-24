@@ -9,7 +9,7 @@ Quit it:  type  bye
 
 from safety import check_safety   # a safety net added by your teacher. Leave it.
 
-BOT_NAME = "Dr. Byte"   # TODO 1: give your bot a name
+BOT_NAME = "Mr. Vin"   # TODO 1: give your bot a name
 
 print(f"{BOT_NAME}: Hello. Tell me what is on your mind. (type 'bye' to leave)")
 
@@ -31,6 +31,12 @@ while True:
         print(f"{BOT_NAME}: I am sorry to hear that. Why do you feel sad?")
     elif "school" in user_input:
         print(f"{BOT_NAME}: Tell me more about school.")
+    elif "vacation" in user_input:
+        print(f"{BOT_NAME}: Where did you go on vacation?")
+    elif "joy" in user_input or "happy" in user_input:
+        print(f"{BOT_NAME}: Awesome! Tell me why you're so excited!")
+    elif "restuarant" in user_input:
+        print(f"{BOT_NAME}: Did you eat great food?")
     # TODO 2: add at least 3 more `elif` rules about topics YOU choose.
     # TODO 3: make one of your rules react to TWO different words (use `or`).
     else:
@@ -43,5 +49,5 @@ while True:
 # Run the bot and type:   this is hard
 # Why does the bot say "Hello!"?  (Hint: what does `"hi" in "this"` give you?)
 # Write your guess here:
-#
+# The bot says "Hello!" because the word "this" has the word "hi" in it and that is the only word that it can recognize in that sentence.
 # We will fix this properly in Stage 2 by breaking the sentence into WORDS.

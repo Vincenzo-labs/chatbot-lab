@@ -12,7 +12,7 @@ Other files borrow this data with an import, like:
 # ---------------------------------------------------------------------------
 # BASICS
 # ---------------------------------------------------------------------------
-BOT_NAME = "Dr. Byte"  # TODO: rename your bot!
+BOT_NAME = "Mr. Vin"  # TODO: rename your bot!
 
 GREETING = "Hello, I am {name}. Tell me what is on your mind."
 FAREWELL = "Goodbye. It was nice talking with you."
@@ -59,6 +59,26 @@ RESPONSES = {
         "What do you like most about your friends?",
         "Do your friends feel the same way?",
     ],
+    "birthday": [
+        "How do you celebrate your brithday?",
+        "Do you get many gifts for your birthday?",
+    ],
+    "funny": [
+        "Tell me about the joke.",
+        "Did you watch a funny TV show?",
+    ],
+    "books": [
+        "How much do you read?",
+        "Do you find reading a relaxing hobby?",
+    ],
+    "math": [
+        "Do you like working with numbers?",
+        "Do you like learning about complex problems?",
+    ],
+    "chores": [
+        "How often do you do chores?",
+        "Is doing chores fun?",
+    ]
 }
 
 DEFAULT_RESPONSES = [
